@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title>Divya Pala - CV</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            .card-body {
+                display: flex;
+                flex-direction: column;
+                height: auto; /* Adjust height for all cards */
+            }
+            .card-body p {
+                flex-grow: 1; /* Allow the paragraph to grow */
+                margin-bottom: 10px; /* Add some margin at the bottom */
+            }
+            .card-body .btn {
+                margin-top: 10px; /* Add margin to move button reasonably after the description */
+            }
+            .card-img-top {
+                width: 100px; /* Set a fixed width for all images */
+                height: 100px; /* Set a fixed height for all images */
+                object-fit: cover; /* Ensure the image fits within the specified dimensions */
+                margin: 0 auto; /* Center the image horizontally */
+            }
+            /* Reduce space between sections */
+            section.post {
+                margin-bottom: 20px;
+            }
+            h2 {
+                margin-bottom: 15px;
+                font-size: 24px;
+                text-align: center; /* Center align section headers */
+            }
+            h3 {
+                margin-bottom: 10px;
+                font-size: 20px;
+            }
+            ul {
+                margin-bottom: 10px;
+            }
+            .education-link {
+                font-size: 14px;
+                color: #007bff;
+                text-decoration: none;
+            }
+            .education-link:hover {
+                text-decoration: underline;
+            }
+            /* New styles for skills section */
+            .skill-card, .work-card, .education-card {
+                display: flex;
+                align-items: flex-start; /* Align items to the top */
+                margin-bottom: 20px;
+                padding: 15px;
+                border: 1px solid #ddd;
+                border-radius: 5px;
+                background-color: #f9f9f9;
+            }
+
+            .skill-card img, .work-card img, .education-card img {
+                width: 200px; /* Set a fixed width for all images */
+                height: 200px; /* Set a fixed height for all images */
+                object-fit: cover;
+                margin-right: 20px;
+                flex-shrink: 0;
+                display: block;
+                border-radius: 50%; /* Make images circular */
+            }
+
+            .skill-card .card-body, .work-card .card-body, .education-card .card-body {
+                flex: 1;
+                text-align: left;
+                display: flex;
+                flex-direction: column;
+            }
+
+            @media (max-width: 768px) {
+                .skill-card, .work-card, .education-card {
+                    flex-direction: column;
+                    align-items: center;
+                    text-align: center;
+                }
+
+                .skill-card img, .work-card img, .education-card img {
+                    margin-right: 0;
+                    margin-bottom: 15px;
+                }
+
+                .skill-card .card-body, .work-card .card-body, .education-card .card-body {
+                    align-items: center;
+                }
+            }
+        </style>
+    </head>
+    <body class="is-preload">
+
+        <!-- Wrapper -->
+            <div id="wrapper">
+
+                <!-- Header -->
+                    <header id="header">
+                        <a href="index.html" class="logo">Behind Every Data Point is Someone's Story.</a>
+                    </header>
+
+                <!-- Nav -->
+                    <nav id="nav">
+                        <ul class="links">
+                            <li><a href="index.html" target="_blank">About Me</a></li>
+                            <li class="active"><a href="generic.html" target="_blank">CV</a></li>
+                            <li><a href="elements.html" target="_blank">Projects</a></li>
+                        </ul>
+                        <ul class="icons">
+                            <li><a href="tel:+61497073930" class="icon fa-phone" target="_blank"><span class="label">Phone</span></a></li>
+                            <li><a href="mailto:divya.pala@hotmail.com" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+                            <li><a href="https://www.linkedin.com/in/divya-pala" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+                        </ul>
+                    </nav>
+
+                <!-- Main -->
+                    <div id="main">
+
+                        <!-- Work Experience -->
+                        <section class="post">
+                            <h2 class="text-center">Work Experience</h2>
+                            <div class="work-card">
+                                <div class="card-body">
+                                    <h3>Business Development Officer</br> Shakti Jewellers Ltd, Fiji <i>(2016-2022)</i></h3>
+                                    <ul>
+                                        <li><p>Maintained an up-to-date, database of the stock control process which is critical given the high value of the product</p></li>
+                                        <li><p>Generated Excel pivot tables and spreadsheets to compile key company data and reports, with the maintenance of daily transaction record</p></li>    
+                                        <li><p>Reported the Weekly and Monthly Progress and Sales report to the Director</p></li>
+                                        <li><p>Trained internal staff members on administrative processes to facilitate consistent and seamless company operations.</p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Education Section -->
+                        <section class="post">
+                            <h2 class="text-center">Education</h2>
+                            <!-- Master of Business Information Systems -->
+                            <div class="education-card">
+                                <div class="card-body">
+                                    <h3>Master of Business Information Systems by Coursework</br> Australian Institute of Higher Education  <i>(Jul 2022-Apr 2024)</i></h3>
+                                    <ul>
+                                        <li><p>Machine learning, Deep Learning, Data Analysis and Visualisation, Big Data & Project Management</p></li>
+                                        <li><p><a class="education-link" href="https://aih.edu.au/courses/master-of-business-information-systems/" target="_blank">Course website</a></p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <!-- Bachelor of Commerce -->
+                            <div class="education-card">
+                                <div class="card-body">
+                                    <h3>Bachelor of Commerce</br> University of The South Pacific <i>(2019)</i></h3>
+                                    <ul>
+                                        <li><p>Major: Human Resource Management and Employment Relations</p></li>
+                                        <li><p><a class="education-link" href="https://www.usp.ac.fj/learning-teaching/usp-graduate-attributes-and-outcomes/programme-graduate-outcomes/sbm/human-resource-management-and-employee-relations/" target="_blank">Course website</a></p></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </section>
+
+                        <!-- Skills Section -->
+                        <section id="skills" class="skills-section bg-white">
+                            <div class="container">
+                                <h2 class="text-center">Skills</h2>
+                                <!-- Skill 1 -->
+                                <div class="skill-card">
+                                    <img src="images/skills/1.png" alt="Python">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Python</h5>
+                                        <p class="card-text">My expertise includes using Python's powerful libraries for predictive analysis, enabling data-driven decision-making by forecasting future trends. I am proficient in conducting exploratory analysis using Anaconda environments to efficiently manage and analyze large datasets, uncover patterns, and extract meaningful insights. My machine learning skills involve building and deploying models to solve complex problems, automate processes, and enhance prediction accuracy.</p>
+                                    </div>
+                                </div>
+                                <!-- Skill 2 -->
+                                <div class="skill-card">
+                                    <img src="images/skills/data viz.png" alt="Data Visualization">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Data Visualization and Storytelling</h5>
+                                        <p class="card-text">With a passion for transforming complex data into intuitive, engaging visuals, my expertise lies in using BI tools like Tableau and PowerBI to create interactive dashboards and visualizations that not only present data clearly but also tell compelling stories. Whether through dynamic dashboards, detailed reports, or engaging presentations, I aim to turn raw data into impactful stories that resonate with diverse audiences.</p>
+                                        <a href="https://api.growthschool.io/certificate/f2f14412-5d87-47e3-bb4d-4aa0c6445551" class="btn btn-outline-primary" target="_blank">Link to course or bootcamp</a>
+                                    </div>
+                                </div>
+                                <!-- Skill 3 -->
+                                <div class="skill-card">
+                                    <img src="images/skills/3.png" alt="SQL">
+                                    <div class="card-body">
+                                        <h5 class="card-title">SQL</h5>
+                                        <p class="card-text">I have worked on projects in PostgreSQL, managing and manipulating complex datasets. My expertise includes writing efficient queries, designing and maintaining relational databases, and optimizing database performance. I have successfully extracted, transformed, and loaded data, ensuring both integrity and accessibility. Additionally, I am proficient in writing complex joins, subqueries, and aggregate functions, which have been instrumental in generating insightful reports and supporting data-driven decision-making. My SQL skills ensure the precise and efficient handling of large data volumes.</p>
+                                        <a href="https://www.udemy.com/certificate/UC-b9e18149-0813-4764-bfba-a1223bac55c7/" class="btn btn-outline-primary" target="_blank">Link to course or bootcamp</a>
+                                    </div>
+                                </div>
+                                <!-- Skill 4 -->
+                                <div class="skill-card">
+                                    <img src="images/skills/excel.png" alt="Data Cleansing and Analysis">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Excel</h5>
+                                        <p class="card-text">Efficiently used Excel for data cleaning, manipulation, analysis to enhance productivity. Leveraging Excel's Data Analysis Toolpak, performed hypothesis testing, regression analysis, and worked with probability distributions. Additionally, conducted inferential statistics, including confidence intervals, correlation, covariance, and descriptive statistics.</p>
+                                        <a href="https://www.coursera.org/account/accomplishments/certificate/GKDLNRDUGHZ8" class="btn btn-outline-primary" target="_blank">Link to course or bootcamp</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+                        <!-- Copyright -->
+                        <div id="copyright">
+                            <ul><li>&copy; Divya Pala</li><li><a href="#" target="_blank">Behind Every Data Point is Someone's Story!</a></li></ul>
+                        </div>
+
+                    </div>
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            // Show the header logo when scrolling down
+            window.addEventListener('scroll', function() {
+                var header = document.getElementById('header');
+                var welcomeMessage = document.getElementById('welcome-message');
+                var aboutSection = document.getElementById('about');
+                
+                // Get bounding rectangle positions
+                var welcomeMessageRect = welcomeMessage.getBoundingClientRect();
+                var aboutSectionRect = aboutSection.getBoundingClientRect();
+                
+                // Calculate the bottom position of the welcome message relative to the viewport
+                var welcomeMessageBottom = welcomeMessageRect.bottom;
+                
+                // Calculate the top position of the about section relative to the viewport
+                var aboutSectionTop = aboutSectionRect.top;
+                
+                if (welcomeMessageBottom < window.innerHeight && aboutSectionTop > 0) {
+                    header.style.display = 'block';
+                } else {
+                    header.style.display = 'none';
+                }
+            });
+        </script>
+    </body>
+</html>

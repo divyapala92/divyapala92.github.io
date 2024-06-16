@@ -1,0 +1,205 @@
+<!DOCTYPE HTML>
+<!--
+    Massively by HTML5 UP
+    html5up.net | @ajlkn
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+    <head>
+        <title>Divya Pala - Projects</title>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        <link rel="stylesheet" href="assets/css/main.css" />
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+        <style>
+            .card-body {
+                height: 380px; /* Adjust the height to ensure uniform size for all project description boxes */
+                overflow: hidden; /* Hide overflow to keep the boxes neat */
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+            }
+            .card-body p {
+                margin-bottom: 10px; /* Add some margin at the bottom of the description */
+                flex-grow: 1; /* Let the description take up the remaining space */
+                overflow: auto; /* Allow scrolling within the description if the text is too long */
+            }
+            .btn-container {
+                display: flex;
+                justify-content: flex-start;
+                gap: 10px;
+            }
+            .card-img-top {
+                height: 200px; /* Set a fixed height for the images */
+                object-fit: cover; /* Ensure images cover the container */
+                width: 100%; /* Make sure images are responsive */
+            }
+        </style>
+    </head>
+    <body class="is-preload">
+
+        <!-- Wrapper -->
+        <div id="wrapper">
+
+            <!-- Header -->
+            <header id="header">
+                <a href="index.html" class="logo">Behind Every Data Point is Someone's Story.</a>
+            </header>
+
+            <!-- Nav -->
+            <nav id="nav">
+                <ul class="links">
+                    <li><a href="index.html" target="_blank">About Me</a></li>
+                    <li><a href="generic.html" target="_blank">CV</a></li>
+                    <li class="active"><a href="elements.html" target="_blank">Projects</a></li>
+                </ul>
+                <ul class="icons">
+                    <li><a href="tel:+61497073930" class="icon fa-phone" target="_blank"><span class="label">Phone</span></a></li>
+                    <li><a href="mailto:divya.pala@hotmail.com" class="icon fa-envelope" target="_blank"><span class="label">Email</span></a></li>
+                    <li><a href="https://www.linkedin.com/in/divya-pala" class="icon brands fa-linkedin-in" target="_blank"><span class="label">LinkedIn</span></a></li>
+                </ul>
+            </nav>
+
+            <!-- Main -->
+            <div id="main">
+
+                <!-- Projects Section -->
+                <section id="projects" class="projects-section bg-light">
+                    <div class="container">
+                        <h2 class="text-center">Projects</h2>
+                        <div class="row">
+                            <!-- The Road to Diabetes -->
+                            <div class="col-md-6 mb-4">
+                                <div class="card">
+                                    <img src="images/projects/diabetes melitus.jpg" class="card-img-top" alt="Project 1">
+                                    <div class="card-body">
+                                        <h5 class="card-title">The Road to Diabetes</h5>
+                                        <p class="card-text">An interactive visualization system tailored to show the multifaceted factors of Diabetes Mellitus within Bangladesh. The findings highlight the need for coordinated efforts by governments, healthcare providers, and community stakeholders in addressing Bangladesh's rapidly growing diabetes issue and the importance of putting focused interventions into place. Also, a web app consisting of diabetes prediction was integrated into the system enhancing user experience by providing a unified interface for data exploration and personalized health assessment.</p>
+                                        <div class="btn-container">
+                                            <a href="https://public.tableau.com/views/TheRoadtoDiabetes/Bangladesh?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" class="btn btn-secondary" target="_blank">Click to View Dashboard</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Diabetes Prediction ML Model in Python -->
+                            <div class="col-md-6 mb-4">
+                                <div class="card">
+                                    <img src="images/projects/diabetes prediction ml model.jpg" class="card-img-top" alt="Project 2">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Diabetes Prediction ML Model</h5>
+                                        <p class="card-text"> This is a follow-up project from "The Road to Diabetes". In the model training, evaluation, and deployment phase, the dataset is divided into training and testing sets and the RandomForestClassifier was used as the chosen classification model for predicting diabetes. Finally, the model is deployed using a Streamlit application. The URL to access the web application was seamlessly integrated into the Tableau dashboard (The Road to Diabetes), ensuring users can transition between the two platforms effortlessly.</p>
+                                        <div class="btn-container">
+                                            <a href="https://github.com/divyapala92/predict_web_app.git" class="btn btn-primary" target="_blank">GitHub</a>
+                                            <a href="https://predictwebapp-diabetes.streamlit.app/" class="btn btn-secondary" target="_blank">Streamlit URL</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <!-- Flu Shots -->
+                            <div class="col-md-6 mb-4">
+                                <div class="card">
+                                    <img src="images/projects/fluu.jpg" class="card-img-top" alt="Project 5">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Flu Shots</h5>
+                                        <p class="card-text">The dashboard displays flu shot percentages by categories such as age and race and allows interaction by county. The process is split into two parts: creating a data extract with SQL and building the dashboard in Tableau. The SQL lesson involves setting up a database, writing queries to filter and join data, and creating a comprehensive dataset. The Tableau tutorial covers importing the data, creating various charts, and assembling the dashboard. The final product is an interactive dashboard that visualizes flu shot data across different demographics and regions.</p>
+                                        <div class="btn-container">
+                                            <a href="https://github.com/divyapala92/flu-shots.git" class="btn btn-primary" target="_blank">GitHub</a>
+                                            <a href="https://public.tableau.com/views/MassachusettsFluShots2022_17177437043320/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" class="btn btn-secondary" target="_blank">Click to View Dashboard</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Patients Satisfaction Ratings -->
+                            <div class="col-md-6 mb-4">
+                                <div class="card">
+                                    <img src="images/projects/patient ratings.jpg" class="card-img-top" alt="Project 4">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Patient Hospital Satisfaction</h5>
+                                        <p class="card-text">Tableau dashboard that looks at how satisfied patients are with their hospitals in the United States. This comes from a public dataset called HCAHPS(the Hospital Consumer Assessment of Healthcare Providers and Systems) that looks at over 3000 hospitals in the United States. It is a patient satisfaction survey that most hospitals are required to submit to The Center for Medicare and Medicaid Services (CMS).</p>
+                                        <div class="btn-container">
+                                            <a href="https://public.tableau.com/views/PatientSatisfactionRatings/Dashboard1?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" class="btn btn-secondary" target="_blank">Click to View Dashboard</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row mt-4">
+                            <!-- Decades of Shaking -->
+                            <div class="col-md-6 mb-4">
+                                <div class="card">
+                                    <img src="images/projects/earthquake.jpg" class="card-img-top" alt="Project 3">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Decades of Shaking</h5>
+                                        <p class="card-text">This comprehensive exploration of earthquake data, empowered by Tableau's visualization capabilities, unravels the complex seismic tapestry that shapes our world spanning nearly a century, from 1921 to 2020, unlocking the secrets of earthquakes. Developed nations invest in tech and infrastructure, curbing casualties. Stringent codes and early warnings save lives. Yet, less developed nations within the Ring of Fire, like Indonesia, suffer due to resource limitations. This disparity underscores the need for international cooperation.</p>
+                                        <div class="btn-container">
+                                            <a href="https://public.tableau.com/views/DecadesofShaking/DecadesofShaking?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" class="btn btn-secondary" target="_blank">Click to View Dashboard</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- House Sales -->
+                            <div class="col-md-6 mb-4">
+                                <div class="card">
+                                    <img src="images/projects/house sales.jpg" class="card-img-top" alt="Project 6">
+                                    <div class="card-body">
+                                        <h5 class="card-title">House Sales</h5>
+                                        <p class="card-text">The dashboard is a comprehensive tool for analyzing house sales in King County, Washington. Built in Tableau, the dashboard is interactive, allowing filters to dynamically adjust relevant charts. It includes filters like a calendar widget for selecting specific months and days, and sliders for attributes such as year built, square foot living, and lot size. The dashboard features six visuals: a line chart showing daily average house prices, a map with average prices by location, histograms for house prices, bedrooms, and bathrooms distributions, and a heatmap comparing view quality and house condition.</p>
+                                        <div class="btn-container">
+                                            <a href="https://public.tableau.com/views/WashingtonHouseSales_17174803972990/kingcountyhousesales?:language=en-US&:sid=&:display_count=n&:origin=viz_share_link" class="btn btn-secondary" target="_blank">Click to View Dashboard</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+
+            
+
+            <!-- Copyright -->
+            <div id="copyright">
+                <ul><li>&copy; DIVYAPALA</li><li> <a href="#" target="_blank">Behind Every Data Point is Someone's Story.</a></li></ul>
+            </div>
+
+        </div>
+
+
+        <!-- Scripts -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/jquery.scrollex.min.js"></script>
+        <script src="assets/js/jquery.scrolly.min.js"></script>
+        <script src="assets/js/browser.min.js"></script>
+        <script src="assets/js/breakpoints.min.js"></script>
+        <script src="assets/js/util.js"></script>
+        <script src="assets/js/main.js"></script>
+        <script>
+            // Show the header logo when scrolling down
+            window.addEventListener('scroll', function() {
+                var header = document.getElementById('header');
+                var welcomeMessage = document.getElementById('welcome-message');
+                var aboutSection = document.getElementById('about');
+                
+                // Get bounding rectangle positions
+                var welcomeMessageRect = welcomeMessage.getBoundingClientRect();
+                var aboutSectionRect = aboutSection.getBoundingClientRect();
+                
+                // Calculate the bottom position of the welcome message relative to the viewport
+                var welcomeMessageBottom = welcomeMessageRect.bottom;
+                
+                // Calculate the top position of the about section relative to the viewport
+                var aboutSectionTop = aboutSectionRect.top;
+                
+                if (welcomeMessageBottom < window.innerHeight && aboutSectionTop > 0) {
+                    header.style.display = 'block';
+                } else {
+                    header.style.display = 'none';
+                }
+            });
+        </script>
+    </body>
+</html>
